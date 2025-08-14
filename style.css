@@ -1,0 +1,130 @@
+body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #343a40;
+    margin: 0;
+    padding: 0 10px;
+}
+
+h1 {
+    color: #212529;
+    font-weight: 700;
+    margin: 20px 0;
+    text-align: center;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    max-width: 600px;
+    margin: auto;
+}
+
+form .form-control,
+form .form-select {
+    border-radius: 6px;
+    font-size: 0.95rem;
+    padding: 8px 12px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.btn-danger:hover {
+    background-color: #b02a37;
+}
+
+.table {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.table th {
+    background: #f1f3f5;
+    font-weight: 600;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    padding: 12px;
+}
+
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.status-applied { background: #dbeafe; color: #1e40af; }
+.status-interview { background: #fff3cd; color: #856404; }
+.status-offer { background: #d4edda; color: #155724; }
+.status-rejected { background: #f8d7da; color: #721c24; }
+
+@media (max-width: 576px) {
+    form, .table {
+        font-size: 0.9rem;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+    .table th, .table td {
+        padding: 8px;
+    }
+}
+
+.btn-primary {
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    border: none;
+    color: white;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    transition: all 0.25s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #1e40af, #1e3a8a);
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.4);
+    transform: translateY(-2px);
+}
+
+.btn-danger {
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, #e11d48, #b91c1c);
+    border: none;
+    color: white;
+    box-shadow: 0 4px 12px rgba(225, 29, 72, 0.3);
+    transition: all 0.25s ease;
+}
+
+.btn-danger:hover {
+    background: linear-gradient(135deg, #b91c1c, #991b1b);
+    box-shadow: 0 6px 18px rgba(225, 29, 72, 0.4);
+    transform: translateY(-2px);
+}
